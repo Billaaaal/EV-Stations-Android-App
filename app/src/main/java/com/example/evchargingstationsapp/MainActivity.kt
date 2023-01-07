@@ -182,7 +182,7 @@ data class Marker_(
 
 
 
-@OptIn(ExperimentalFoundationApi::class)
+@OptIn(ExperimentalFoundationApi::class, ExperimentalMaterial3Api::class)
 @SuppressLint("UnrememberedMutableState", "CoroutineCreationDuringComposition")
 @Composable
 fun App(activityContext:MainActivity, currentContext:Context){
